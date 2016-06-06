@@ -1,0 +1,20 @@
+﻿{
+	"version": "1.0.0-*",
+	"testRunner": "xunit",
+	"dependencies": {
+		"xunit": "2.1.0",
+		"dotnet-test-xunit": "1.0.0-rc2-build10025",
+		"FluentAssertions": "4.6.3",
+		"SimpleTemplate": "1.0.0-*"
+	},
+	"frameworks": {
+		"net461": {
+			"dependencies": {
+				"Microsoft.NETCore.Platforms": "1.0.1-rc2-24027"
+			}
+		}
+	},
+	"buildOptions": {
+		"embed": "Templates/Test.html"
+	}
+}
